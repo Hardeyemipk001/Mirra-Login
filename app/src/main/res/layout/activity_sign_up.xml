@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/gabriela"
+        android:text="Mirra"
+        android:textColor="#545DBA"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_alternates"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="Connect with your friends by creating a "
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mirra"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_alternates"
+            android:textColor="#545DBA"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_alternates"
+            android:text="account. "
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Its free!"
+            android:fontFamily="@font/montserrat_alternates"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:fontFamily="@font/montserrat_alternates"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:paddingStart="15dp"
+        android:hint="email@example.com"
+        android:textColorHint="#C4000000"
+        android:background="@drawable/custom_input_login"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="@font/montserrat_alternates"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:hint="*********"
+        android:id="@+id/password_toggle"
+        android:drawableEnd="@drawable/ic_visibility_off"
+        android:paddingEnd="10dp"
+        android:paddingStart="15dp"
+        android:textColorHint="#C4000000"
+        android:background="@drawable/custom_input_login"
+        android:inputType="numberPassword"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:fontFamily="@font/montserrat_alternates"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:hint="*********"
+        android:drawableEnd="@drawable/ic_visibility_off"
+        android:paddingEnd="10dp"
+        android:paddingStart="15dp"
+        android:textColorHint="#C4000000"
+        android:background="@drawable/custom_input_login"
+        android:inputType="numberPassword"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_alternates"
+                android:text="By continuing you agree to our "
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms of Service"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_alternates"
+                android:textColor="#545DBA"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="and"
+                android:fontFamily="@font/montserrat_alternates"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Privacy Policy"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_alternates"
+                android:textColor="#545DBA"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:textColor="@color/white"
+        android:background="@drawable/sign_up"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Sign Up"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#3F51B5"
+        android:background="@drawable/sign_up_google"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_google"
+        android:paddingLeft="70dp"
+        android:fontFamily="@font/montserrat_alternates"
+        android:paddingRight="80dp"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up with Google"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an Account?"
+            android:fontFamily="@font/montserrat_alternates"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Login"
+            android:onClick="loginNav"
+            android:fontFamily="@font/montserrat_alternates"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
